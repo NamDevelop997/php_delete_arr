@@ -21,3 +21,9 @@ unset($arr1[1]);
 echo '<pre>';
 print_r($arr1);
 echo '</pre>';
+
+//delete element of multi array
+unset ($arr1[0]['age']);
+echo '<pre>';
+print_r($arr1);
+echo '</pre>';
